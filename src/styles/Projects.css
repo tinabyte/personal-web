@@ -1,0 +1,60 @@
+.projectsContainer{
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.notionFont{
+    font-family: "Sans-Serif Workhorse", sans-serif;;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    gap: 100px;
+    width: 470px; /* Each column occupies 25% of the container width */
+    box-sizing: border-box; /* Include padding and border in the column width */
+    padding: 10px; /* Adjust padding as desired */
+    /* border: 1px solid #000;   */
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .flex-container {
+      flex-direction: column;
+    }
+
+    .column{
+        width: 100%;
+    }
+    
+    .projectsContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
+  
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* .image-container:hover img {
+    opacity: 0;
+  }
+   */
+  /* .image-container:hover::after {
+    content: '';
+    background-image: url('../images/bnicer.gif');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   */

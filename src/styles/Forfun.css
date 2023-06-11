@@ -1,0 +1,26 @@
+.forFunContainer{
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.photographyFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* add this line to center the columns */
+    align-items: center; 
+}
+
+.photoSetting{
+    width: 100%;
+    height: auto;
+}
+
+.decWidth{
+
+    width: 500px;
+}
+
+.topPadding{
+    padding-top: 150px;
+}

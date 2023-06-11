@@ -1,0 +1,84 @@
+.home-container {
+    padding-top: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  
+  .icon-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 5px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* add this line to center the columns */
+    align-items: center; /* add this line to center the items vertically */
+  }
+  
+  .flex-item {
+    width: 50%;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .flex-container {
+      flex-direction: column;
+      column-width: 550px;
+      column-gap: 0ch;
+    }
+    
+    .home-container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .home-container {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  
+  .leftColumn {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rightColumn {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tinaimg {
+    width: 80%;
+    height: auto;
+  }
+  
+  .largeFont {
+    font-size: 40px;
+    font-family: "DejaVu Sans Mono", monospace;
+  }
+  
+  .leftAlign{
+    text-align: left;    
+  }
+  
+  .mediumFont {
+    font-size: 30px;
+    font-family: "DejaVu Sans Mono", monospace;
+  }
+  
+  .smallFont {
+    font-size: 13px;
+  }
+
+  
+  
+  .icon{
+color: black;
+  }
